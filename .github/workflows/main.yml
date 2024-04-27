@@ -45,4 +45,4 @@ jobs:
         ports: 3000
         environment-variables: OPENWEATHER_API_KEY=cc7b0797f59673b4e87a8a3095890e64
 
-      - run: echo "This job's status is ${{ job.status }}."
+    - run: echo "This job's status is ${{ job.status }}."
